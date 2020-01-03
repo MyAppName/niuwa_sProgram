@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "喵网",
+  "usingComponents": {
+    "drag-button": "/components/drag-button/drag-button"
+  }
+}

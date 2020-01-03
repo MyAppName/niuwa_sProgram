@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************** 布局 ***********************************/
+.pos-label {
+    position: relative;
+    top: 30rpx;
+    left: 8%;
+}
+.pos-security{
+    position: relative;
+    top: 30rpx;
+    left: 10%;
+}
+.pos-label-big {
+    position: relative;
+}
+.pos-label-small {
+    position: relative;
+}
+.pos-img {
+    position: relative;
+    left: 80%;
+    bottom: 70rpx;
+    bottom: 70rpx;
+}
+.pos-control {
+    position: relative;
+    top: 30rpx;
+    left: 10%;
+}
+.pos-switch {
+    position: relative;
+    top: 30rpx;
+    left: 8%;
+}
+.pos-pwd {
+    position: relative;
+    top: 30rpx;
+    left: 10%;
+}
+.pos-viewide {
+    position: relative;
+    top: 20rpx;
+}
+.pos-viewide2 {
+    position: relative;
+    top: 23rpx;
+}
+/*********************************** 样式 ***********************************/
+.label {
+    font-family: "\82F9\65B9";
+}
+.img {
+    height: 24rpx;
+    width: 18rpx;
+}
+.title {
+    font-size: 40rpx;
+    color: #333333;
+}
+.label1 {
+    font-size: 32rpx;
+    color: #333333;
+}
+.label2 {
+    font-size: 24rpx;
+    color: #cccccc;
+}
+.block {
+    height: 120rpx;
+    width: 100%;
+}
+.viewide-line {
+    border-bottom: 1rpx solid #e5e5e5e5;
+    width: 100%;
+}
+
+

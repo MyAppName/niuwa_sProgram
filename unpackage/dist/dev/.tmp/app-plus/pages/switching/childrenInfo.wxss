@@ -1,0 +1,286 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************** 布局 ************************/
+.block {
+    position: absolute;
+    top: 30rpx;
+}
+.block-title{
+    position: relative;
+    top: 30rpx;
+    width: 100%
+}
+.block-info{
+    position: relative;
+    top: 70rpx;
+    left: 15%;
+    width: 70%;
+}
+.block-prompt {
+    position: relative;
+    top: 80rpx;
+    left: 15%;
+}
+.block-numberImg {
+    position: relative;
+    top: 90rpx;
+    left: 15%;
+    width: 20%;
+}
+.block-slider {
+    position: relative;
+    top: 20rpx;
+    left: 25%;
+    width: 65%;
+}
+.childs{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	margin-top: 30rpx;
+}
+.childBtn{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	margin-left: 100rpx;
+}
+.childYear{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	margin-left: 100rpx;
+}
+.block-input {
+  width: 160rpx;
+}
+.block-underline {
+    position: relative;
+    left: 55%;
+    bottom: 80rpx
+}
+.block-viewide {
+    position: relative;
+    left: 20%;
+    top: 50rpx;
+}
+.block-finish {
+    position: relative;
+    left: 60%;
+    top: 15rpx;
+}
+/******************** 内容 ************************/
+.loginContainer{
+    width: 683.33rpx;
+    box-shadow: 0 0 16.9444rpx #cccccc;
+    margin:0 auto;
+    margin-top:41.64rpx;
+    margin-left:33.333rpx;
+    font-family: "\9ED1\4F53";
+    border-radius: 5.5556rpx;
+}
+.title{
+    margin:0 auto;
+    text-align: center;
+    font-size: 42rpx;   
+    color: #333333;
+}
+.info{
+    font-size: 20rpx;
+    color: #666666;
+}
+.prompt {
+    font-size: 23rpx;
+    color: #cccccc;
+}
+.numberImg {
+    height: 40rpx;
+    width: 40rpx;
+}
+.maleButton {
+    height: 52.78rpx;
+    width: 111.11rpx;
+    border-radius: 30rpx 0 0 30rpx;
+    background-color: #333333;
+    font-size: 20rpx;
+    text-align: center;
+    color: #ffffff;
+}
+.maleButton-none {
+    height: 52.78rpx;
+    width: 111.11rpx;
+    border-radius: 30rpx 0 0 30rpx;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    font-size: 20rpx;
+    text-align: center;
+    color: #cccccc;
+}
+.femaleButton {
+    height: 52.78rpx;
+    width: 111.11rpx;
+    border-radius: 0 30rpx 30rpx 0;
+    background-color: #333333;
+    border-left: 0;
+    font-size: 20rpx;
+    text-align: center;
+    color: #ffffff;
+}
+.femaleButton-none {
+    height: 52.78rpx;
+    width: 111.11rpx;
+    border-radius: 0 30rpx 30rpx 0;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-left: 0;
+    font-size: 20rpx;
+    text-align: center;
+    color: #cccccc;
+}
+.input {
+    color: #333333;
+    font-size: 20rpx;
+}
+.ageLabel {
+    color:#cccccc;
+    font-size: 20rpx;
+	line-height: 53rpx;
+}
+.inputPlaceholder {
+    color:#cccccc;
+    font-size: 20rpx;
+}
+.underline {
+    border-bottom: 1rpx solid #cccccc;
+    width: 200rpx;
+}
+.viewide {
+    border-bottom: 1rpx solid #e5e5e5;
+    width: 370rpx;
+    margin-bottom: 30rpx;
+}
+.finish {
+    height: 70rpx;
+    width: 160rpx;
+    border-radius: 60rpx;
+    background-color: #333333;
+    font-size: 24rpx;
+    text-align: center;
+    color: #ffffff;
+}
+.finishHover {
+    height: 70rpx;
+    width: 160rpx;
+    border-radius: 60rpx;
+    background-color: #cccccc;
+    font-size: 24rpx;
+    text-align: center;
+    color: #ffffff;
+}
+
+

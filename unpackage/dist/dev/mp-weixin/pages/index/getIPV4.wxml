@@ -1,0 +1,1 @@
+<view class="data-v-b57602d0"><button type="primary" show-message-card="123" data-event-opts="{{[['tap',[['getIp']]]]}}" bindtap="__e" class="data-v-b57602d0">1</button></view>

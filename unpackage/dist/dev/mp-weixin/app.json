@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/getIPV4",
+    "pages/index/toGetiIP",
+    "pages/switching/SwitchAccount",
+    "pages/switching/repeatPWD",
+    "pages/switching/reviseDevice",
+    "pages/switching/editDevice",
+    "pages/switching/addDevice",
+    "pages/switching/WiFiInfo",
+    "pages/switching/changePWD",
+    "pages/switching/childrenInfo",
+    "pages/switching/WiFiInfoLogin",
+    "pages/setting/ruleSetting",
+    "pages/setting/namesSetting",
+    "pages/setting/timeControl",
+    "pages/setting/addApp",
+    "pages/setting/invisibleList",
+    "pages/config/config",
+    "pages/config/setDeviceId",
+    "pages/historyReport/history",
+    "pages/historyReport/historyReportDay",
+    "pages/historyReport/historyReportWeek",
+    "pages/historyReport/historyReportMonth",
+    "pages/historyReport/gameDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "喵网",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {},
+  "usingComponents": {}
+}

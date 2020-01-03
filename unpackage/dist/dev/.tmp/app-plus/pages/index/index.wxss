@@ -1,0 +1,336 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*lijie********************************** 布局 ***********************************/
+.topBar{
+	width: 100%;
+	position: fixed;
+	top: 0rpx;
+	left: 30rpx;
+	z-index: 999999;
+}
+.topBar1{
+	font-size: 21rpx;
+	color: #0000FF;
+	background-color: #FFFFFF;
+	padding: 10rpx;
+}
+.topBar2{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	padding: 10rpx;
+}
+.topBtn{
+	height: 30rpx;
+	font-size: 28rpx;
+	box-shadow:  #333333 0px 0px 6px;
+	padding: 15rpx 30rpx;
+	border-radius: 25rpx;
+	color:  #333333;
+	background-color: #FFFFFF;
+}
+.topBtn1{
+	color: #0000FF;
+}
+.allSize {
+    position: absolute;
+    height: 100%;
+    left: 3%;
+    width: 94%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+}
+.block1 {
+    position: relative;  
+    height: 23%;
+}
+.block2 {
+    position: relative;
+    height: 23%;
+}
+.block3 {
+    position: relative;
+    height: 23%;
+}
+.block4 {
+    position: relative;
+    height: 23%;
+}
+.block-img {
+    width: 100%;
+    height: 100%;
+	z-index: 1;
+}
+.block-title {
+    position: relative;
+    bottom:200rpx;
+    left:80rpx;
+}
+.block-content {
+    position: relative;
+    bottom:170rpx;
+    left:80rpx;
+}
+/*********************************** 样式 ***********************************/
+.image1 {
+    width: 100%;
+}
+.title {
+    font-size: 28rpx;
+    color: #ffffff;
+}
+.content {
+    font-size: 22rpx;
+    color: #ffffff;
+    width:40%;
+}
+
+

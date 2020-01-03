@@ -1,0 +1,40 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "postcss": true,
+    "minified": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.7.0",
+  "appid": "wx6c83f76e2dc8e2a7",
+  "projectname": "喵网",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "miaowang",
+          "query": "",
+          "id": 0,
+          "pathName": "pages/index/index"
+        }
+      ]
+    }
+  }
+}

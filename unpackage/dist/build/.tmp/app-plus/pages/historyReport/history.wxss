@@ -1,0 +1,798 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************** 布局 ***********************************/
+.tdimg {
+  position: relative;
+  bottom: 20rpx;
+  width: 70rpx;
+  height: 70rpx;
+}
+.ribao {
+  font-size: 24rpx;
+  -webkit-align-content: center;
+          align-content: center;
+  padding: 4% 0% 4% 40%;
+  color: #ffffff;
+  background-color: black;
+  /*border-radius:50px;*/
+}
+.pos-time {
+  position: relative;
+  top: 40rpx;
+  left: 20rpx;
+}
+.pos-scrollview {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.pos-week {
+  position: relative;
+  bottom: 150rpx;
+  left: 25%;
+}
+.pos-date {
+  position: relative;
+  bottom: 130rpx;
+  left: 25%;
+}
+/*累计上网时间*/
+.pos-alltime {
+  position: relative;
+  bottom: 50rpx;
+  right: 20rpx;
+}
+/*xxx的手机*/
+.deshouji {
+  position: relative;
+  color: #333333;
+  top: 0rpx;
+  left: 30rpx;
+}
+/*设备型号*/
+.pos-text {
+  position: relative;
+  bottom: 41rpx;
+  top: 0rpx;
+  left: 30rpx;
+  /*text-align: center;*/
+}
+/*  .pos-timeblock {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+    }*/
+.pos-left {
+  -webkit-box-flex: left;
+  -webkit-flex: left;
+          flex: left;
+  width: 60%;
+  height: 100%;
+}
+.pos-right {
+  -webkit-box-flex: right;
+  -webkit-flex: right;
+          flex: right;
+  width: 40%;
+  height: 100%;
+}
+/*  .pos-timeTitle{
+      position:relative;
+      left: 15%;
+      top: 30rpx;
+    }*/
+/*  .pos-timeCounter {
+      position:relative;
+      left: 15%;
+      top: 46rpx;
+    }*/
+/*  .pos-textCounter {
+      position:relative;
+      left: 45%;
+      top: 43rpx;
+    }*/
+/*  .pos-tips {
+      position:relative;
+      left: 15%;
+      top: 74rpx;
+    }*/
+/*  .pos-apps {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      top:30rpx;
+    }*/
+/*  .pos-app {
+      height: 33.3%;
+    }*/
+/*  .pos-appimg {
+      position: relative;
+    }*/
+/*  .pos-appName {
+      position: relative;
+      display: inline-block;
+      left:20rpx;
+      bottom: 20rpx;
+      width:60%;
+    }*/
+/*  .pos-detail {
+      position:relative;
+      left: 100rpx;
+      top:30rpx;
+    }*/
+/*********************************** 样式 ***********************************/
+.hr {
+  height: 30rpx;
+  background-color: gainsboro;
+}
+.time {
+  font-size: 32rpx;
+  font-family: "\82F9\65B9";
+  color: #333333;
+}
+/*累计上网时间*/
+.alltime {
+  /*text-align: center;*/
+  font-size: 24rpx;
+  color: #333333;
+  float: right;
+}
+.timenum {
+  font-size: 24rpx;
+  color: #333333;
+}
+.timeblock {
+  margin: 0 auto;
+  width: 680rpx;
+  height: 370rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 0 16rpx #cccccc;
+}
+.timeTitle {
+  font-size: 28rpx;
+  color: #333333;
+}
+.timeCounter {
+  font-size: 24rpx;
+  color: #333333;
+}
+.textCounter {
+  font-size: 21rpx;
+  color: #777777;
+}
+.tips {
+  height: 80rpx;
+  width: 70%;
+}
+.apps {
+  width: 100%;
+  height: 75%;
+}
+.appimg {
+  height: 65rpx;
+  width: 65rpx;
+}
+.appName {
+  font-size: 21rpx;
+  color: #777777;
+}
+.detail {
+  font-size: 22rpx;
+  color: #666666;
+}
+/*********************************** 滚动栏 ***********************************/
+.scrollview {
+  margin-top: 80rpx;
+}
+.scrollview-block-img {
+  height: 145.83rpx;
+  width: 145.83rpx;
+}
+.scrollview-block {
+  margin-top: 4rpx;
+  height: 145.83rpx;
+  width: 145.83rpx;
+  box-shadow: 0 0 5rpx #cccccc;
+  border-radius: 5.5556rpx;
+  display: block;
+}
+.scrollview-img-week {
+  font-size: 18rpx;
+  font-family: "\82F9\65B9";
+  color: #999999;
+}
+.scrollview-img-date {
+  font-size: 55rpx;
+  font-family: "\82F9\65B9";
+  color: #333333;
+}
+.scrollview-img-curweek {
+  font-size: 18rpx;
+  font-family: "\82F9\65B9";
+  color: #ffffff;
+}
+.scrollview-img-curdate {
+  font-size: 55rpx;
+  font-family: "\82F9\65B9";
+  color: #ffffff;
+}
+.scroll-view_H {
+  white-space: nowrap;
+}
+.scroll-view-item {
+  height: 148rpx;
+}
+.scroll-view-item_H {
+  display: inline-block;
+  width: 25%;
+  height: 148rpx;
+}
+.tr {
+  border: sandybrown 0px solid;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.th,
+.td {
+  padding: 10px;
+  /*border-bottom: 1px solid #dadada;*/
+  /*border-right: 1px solid #dadada;*/
+  /* text-align: center; */
+  width: 100%;
+}
+.th1,
+.th2,
+.td1,
+.td2 {
+  width: 40%;
+}
+.th {
+  font-weight: 800;
+  /*background-color: #b66242;*/
+  font-size: 26rpx;
+  color: #333333;
+}
+.td {
+  font-size: 20rpx;
+  /*color: #333333;*/
+}
+.td > ._img {
+  width: 100rpx;
+  height: 90rpx;
+}
+

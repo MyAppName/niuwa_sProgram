@@ -1,0 +1,271 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************** 布局 ***********************************/
+.deviceId{
+	/* margin-top: 70rpx; */
+	margin-left: 100rpx;
+}
+.block {
+    position: absolute;
+    top: 30rpx;
+}
+.block-title{
+    position: relative;
+    top: 30rpx;
+    width: 100%
+}
+.block-info{
+    position: relative;
+    top: 70rpx;
+    left: 15%;
+    width: 70%;
+}
+.block-label {
+    position: relative;
+    top: 110rpx;
+    left: 25%;
+}
+.block-label2 {
+    position: relative;
+    top: 70rpx;
+    left: 25%;
+}
+.block-label-after {
+    position: relative;
+    top: 85rpx;
+    left: 25%;
+}
+.block-label-after2 {
+    position: relative;
+    top: 40rpx;
+    left: 25%;
+}
+.block-underline {
+    position: relative;
+    top: 20rpx;
+    left: 15%;
+}
+.block-underline2 {
+    position: relative;
+    bottom: 70rpx;
+    left: 15%;
+}
+.logon{
+	/* position: relative;
+	bottom: 0;
+	right:0; */
+}
+block-input {
+    position: relative;
+    left: 20%;
+}
+.block-input2 {
+    position: relative;
+    top:45rpx;
+}
+.block-see {
+    position: relative;
+    left: 97%;
+}
+.btns{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 70rpx;
+}
+.btn{
+	font-size: 25rpx;
+}
+.btn1{
+	width: 100rpx;
+	margin-left: 100rpx;
+	color: blue;
+	text-align: center;
+}
+.btn2{
+	color: #ffffff;
+	background-color: #cccccc;
+	border-radius: 50rpx;
+	height: 69rpx;
+	width: 152rpx;
+	margin-right: 70rpx;
+	text-align: center;
+	line-height: 70rpx;
+}
+/*********************************** 样式 ***********************************/
+.loginContainer{
+    width: 683.33rpx;
+    height: 660.278rpx;
+    -webkit-box-shadow: 0 0 16.9444rpx #cccccc;
+            box-shadow: 0 0 16.9444rpx #cccccc;
+    margin:0 auto;
+    margin-top:41.64rpx;
+    margin-left:33.333rpx;
+    font-family: "\9ED1\4F53";
+    border-radius: 5.5556rpx;
+}
+.loginTitle{
+    margin:0 auto;
+    text-align: center;
+    font-size: 42rpx;   
+    color: #333333;
+}
+.loginContent { 
+    font-size: 20rpx;
+    color: #666666;
+}
+.loginLabel1 {
+    font-size: 28rpx;
+    color: #CCCCCC;
+}
+.change_loginLabel1 {
+    font-size: 20rpx;
+    color: #CCCCCC;
+}
+.loginLabel2 {
+    font-size: 28rpx;
+    color: #CCCCCC;
+}
+.change_loginLabel2 {
+    font-size: 20rpx;
+    color: #CCCCCC;
+}
+.underline{
+    border-bottom:2.777rpx solid #e5e5e5e5;
+    width: 500rpx;
+}
+.loginInput {
+    height: 60rpx;
+    margin-left: 50rpx;
+	margin-top: 30rpx;
+    font-size: 28rpx;
+    color:#333333;
+}
+.focusline {
+    border-bottom:2.777rpx solid #666666;
+    width: 500rpx;
+}
+.canSee {
+    height: 20.78rpx; 
+    width: 40.78rpx;
+}
+
+
+
+
+

@@ -1,0 +1,365 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************** 布局 ***********************************/
+.block {
+}
+.block-title{
+}
+.block-info{
+    bottom: 80rpx;
+}
+.block-edit {
+    width: 80%;
+    bottom: 380rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+	margin-top: 60rpx;
+}
+.block-add-img {
+}
+.block-add-label {
+}
+.block-vfor {
+
+    width: 100%;
+	margin-top: 40rpx;
+}
+.block-devices {
+	width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.block-devices-img {
+}
+.block-devices-label {
+}
+.block-devices-label-up {
+}
+.block-devices-label-down {
+}
+.block-devices-button-left {
+}
+.block-devices-button-right {
+}
+/*********************************** 样式 ***********************************/
+.container{
+    width: 683.33rpx;
+    height: 640.278rpx;
+    -webkit-box-shadow: 0 0 16.9444rpx #cccccc;
+            box-shadow: 0 0 16.9444rpx #cccccc;
+    margin:0 auto;
+    margin-top:41.64rpx;
+    margin-left:33.333rpx;
+    font-family: "\82F9\65B9";
+    border-radius: 5.5556rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.btn{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	/* margin-left: 100rpx; */
+}
+.title{
+    margin:0 auto;
+    text-align: center;
+    font-size: 42rpx;   
+    color: #333333;
+}
+.content { 
+    font-size: 20rpx;
+    text-align: center;
+    color: #666666;
+}
+.adds{
+    height: 70rpx;
+    width: 45%;
+    border-radius: 40rpx;
+    -webkit-box-shadow: 0 0 15rpx #cccccc;
+            box-shadow: 0 0 15rpx #cccccc;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.add-img{
+    left: 15%;
+    height: 22rpx;
+    width: 22rpx;
+}
+.add-label{
+    left: 25%;
+    font-size: 20rpx;
+    color: #aaaaaa;
+}
+.devices {
+    height: 100rpx;
+}
+.devices-img {
+    height: 60rpx;
+    width: 60rpx;
+}
+.devices-label-up {
+    font-size: 21rpx;
+    color:#cccccc;
+}
+.devices-label-down {
+    font-size: 26rpx;
+    color:#333333;
+}
+/* 按钮样式 */
+.limitOpen {
+    height: 52.78rpx;
+    width: 111.11rpx;
+    border-radius: 30rpx 0 0 30rpx;
+    background-color: #333333;
+    font-size: 20rpx;
+    text-align: center;
+    color: #ffffff;
+	margin-left: 200rpx;
+}
+.limitOpen-none {
+    height: 52.78rpx;
+    width: 111.11rpx;
+    border-radius: 30rpx 0 0 30rpx;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    font-size: 20rpx;
+    text-align: center;
+    color: #cccccc;
+	margin-left: 200rpx;
+}
+.limitClose {
+    height: 52.78rpx;
+    width: 111.11rpx;
+    border-radius: 0 30rpx 30rpx 0;
+    background-color: #333333;
+    border-left: 0;
+    font-size: 20rpx;
+    text-align: center;
+    color: #ffffff;
+}
+.limitClose-none {
+    height: 52.78rpx;
+    width: 111.11rpx;
+    border-radius: 0 30rpx 30rpx 0;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-left: 0;
+    font-size: 20rpx;
+    text-align: center;
+    color: #cccccc;
+}
+
+

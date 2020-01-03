@@ -1,0 +1,123 @@
+
+.aa{
+  padding-left: 33rpx;
+}
+.aa2{
+  width: 688rpx;
+  height: 98rpx;
+  margin-top: 42rpx;
+}
+.aa2>._img{
+  width: 688rpx;
+  height: 98rpx;
+}
+.aa3{
+  width: 649rpx;
+  /* height: 154rpx; */
+  margin-top: 28rpx;
+  padding: 28rpx 21rpx;
+  background-color: #eeeeee;
+  font-family: Microsoft Yahei;
+  font-size: 22rpx;
+  color: #666666;
+}
+/* .notice{
+  
+} */
+.aa4{
+  margin-top: 49rpx;
+}
+.aa4Text{
+  font-size: 21rpx;
+  color: #333333;
+  /* margin-bottom: 22rpx; */
+}
+.num{
+  font-size: 18rpx;
+  font-size: #666666;
+}
+.j-upload{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.j-upload-btn{
+  border: 1px dashed #ddd;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  /* margin-right: 20rpx; */
+  margin-top: 30rpx;
+}
+.imgs{
+  margin-top: 30rpx;
+}
+.img{
+    width: 215rpx;
+    height: 215rpx;
+    /* margin:10rpx 20rpx 10rpx 0; */
+}
+.img:nth-child(3n-1){
+    margin: 30rpx 21rpx 0 21rpx;
+}
+.aa5{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    margin-top: 120rpx;
+}
+.aa5Btn{
+    width: 330rpx;
+    height: 70rpx;
+    font-size: 24rpx;
+    color: #333333;
+    border-radius: 50rpx;
+    box-shadow: 0 0 3px #666666;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center
+}
+.aa5BtnL{
+     background-color: #ffffff;
+}
+.aa5BtnR{
+    background-color: #333333;
+    color: #ffffff;
+    margin-left: 21rpx;
+}
+.aa5Icon{
+    width: 27rpx;
+    height: 27rpx;
+    margin-right: 24rpx;
+}
+

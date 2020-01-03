@@ -1,0 +1,118 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "喵网"
+			}
+		},
+		
+		{
+			"path": "pages/index/getIPV4",
+			"style": {
+				"navigationBarTitleText": "喵网"
+			}
+		},
+		{
+			"path": "pages/index/toGetiIP",
+			"style": {
+				"navigationBarTitleText": "喵网"
+			}
+		},
+		// 账号切换
+		{"path": "pages/switching/SwitchAccount","style": {}},
+		{
+			"path": "pages/switching/repeatPWD",
+			"style": {}
+		},
+		{
+			"path": "pages/switching/reviseDevice",
+			"style": {}
+		},
+		{
+			"path": "pages/switching/editDevice",
+			"style": {}
+		},
+		{
+			"path": "pages/switching/addDevice",
+			"style": {}
+		},
+		{"path": "pages/switching/WiFiInfo","style": {}},
+		{"path": "pages/switching/changePWD","style": {}},
+		{"path": "pages/switching/childrenInfo","style": {}},
+		{"path": "pages/switching/WiFiInfoLogin","style": {}},
+		// 名单设定
+		{
+			"path": "pages/setting/ruleSetting",
+			"style": {}
+		},
+		{
+			"path": "pages/setting/namesSetting",
+			"style": {
+				// "navigationBarTitleText": "喵网"
+			}
+		},
+		{
+			"path": "pages/setting/timeControl",
+			"style": {}
+		},
+		{
+			"path": "pages/setting/addApp",
+			"style": {}
+		},
+		{
+			"path": "pages/setting/invisibleList",
+			"style": {}
+		},
+		// 配置管理
+		{
+			"path": "pages/config/config",
+			"style": {}
+		},
+		{
+			"path": "pages/config/setDeviceId",
+			"style": {}
+		},
+		// 浏览报告
+		{
+			"path": "pages/historyReport/history",
+			"style": {}
+		},
+		{
+			"path": "pages/historyReport/historyReportDay",
+			"style": {}
+		},
+		{
+			"path": "pages/historyReport/historyReportWeek",
+			"style": {}
+		},
+		{
+			"path": "pages/historyReport/historyReportMonth",
+			"style": {}
+		},
+		{
+			"path": "pages/historyReport/gameDetail",
+			"style": {}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "喵网",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "miaowang", //模式名称
+				"path": "pages/index/index", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
